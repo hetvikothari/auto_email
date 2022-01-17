@@ -11,10 +11,10 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________
 
 ### Features
-## A Django server built for sending automatic emails.
-## Users can send email with the temperature of the receiver's city at the time of sending mail.
-## Weather Data fetched using API.
-## Weather API Used: https://openweathermap.org/api
+#### A Django server built for sending automatic emails.
+#### Users can send email with the temperature of the receiver's city at the time of sending mail.
+#### Weather Data fetched using API.
+#### Weather API Used: https://openweathermap.org/api
 
 ________________________________________________________________________________________________
 
