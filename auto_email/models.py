@@ -47,7 +47,6 @@ def send_email(sender, instance, **kwargs):
     email = instance.email
     city = instance.city
     api_key = os.getenv('api_key')
-    print(api_key)
     cityId = city_id[city]
     url = f"https://api.openweathermap.org/data/2.5/weather?id={cityId}&appid={api_key}"
     response = requests.get(url).text
