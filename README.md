@@ -31,6 +31,9 @@ ________________________________________________________________________________
 #### Make migrations
 `python manage.py makemigrations`
 `python manage.py migrate`
+#### Create a suoeruser to login into admin panel
+`python manage.py createsuperuser`
 #### Run the following command to start the server
 `python manage.py runserver`
 #### Go to http://localhost:8000/admin/
+#### Enter your credentials used while creating superuser to login into admin panel
